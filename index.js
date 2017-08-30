@@ -1,1 +1,1 @@
-console.log('hi from the package');
+console.log(Hey there!);
