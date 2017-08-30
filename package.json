@@ -1,0 +1,23 @@
+{
+  "name": "aui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "packages": {
+    "react": "^15.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomClarkson/aui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomClarkson/aui/issues"
+  },
+  "homepage": "https://github.com/TomClarkson/aui#readme"
+}
