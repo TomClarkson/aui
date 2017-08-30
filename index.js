@@ -1,1 +1,1 @@
-console.log(Hey there!);
+export default () => (<h1>It works!</h1>);
