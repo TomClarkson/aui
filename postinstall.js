@@ -2,9 +2,11 @@ var fs = require('fs');
 var path = require('path');
 
 
-const buildPath = path.join(__dirname + '/dist.js');
+const script = `
+    console.log(Hey there!);
+`;
 
-fs.writeFile(buildPath, "console.log(Hey there!);", function(err) {
+fs.writeFile("dist.js", script, function(err) {
     if(err) {
         return console.log(err);
     }
