@@ -1,3 +1,21 @@
-import React from 'react';
+import OutsideClick from './outsideclick';
+import ScrollableTabs from './scrollabletabs';
+import Tooltip from './tooltip';
+import Button from './button';
+import LeftRightSlides from './leftrightslides';
+import Input from './input';
+import Select from './select';
+import Checkbox from './checkbox';
+import Textarea from './textarea';
 
-export default () => (<h1>It works!!!</h1>);
+export {
+  Input,
+  OutsideClick,
+  ScrollableTabs,
+  Tooltip,
+  Button,
+  LeftRightSlides,
+  Select,
+  Checkbox,
+  Textarea
+};
