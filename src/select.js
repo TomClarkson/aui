@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ArrowDropdown from 'material-ui/svg-icons/navigation/arrow-drop-down';
 import ArrowDropup from 'material-ui/svg-icons/navigation/arrow-drop-up';
 import ClearIcon from 'material-ui/svg-icons/content/clear';
-import { OutsideClick } from '../components';
+import { OutsideClick } from './index';
 import PropTypes from 'prop-types';
 
 const targetColor = '#333';

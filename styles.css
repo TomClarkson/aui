@@ -1,0 +1,323 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+a:link{
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+.box{
+  width: 120px;
+  height: 100px;
+  border: solid 3px;
+  border-radius: 10px;
+  position: absolute;
+  padding: 10px;
+  background-color: white;
+  font-size: 10pt;
+  z-index:20;
+}
+.botcard{
+  position: absolute;
+  z-index:20;
+}
+.botcard.selected {
+  z-index: 21;
+}
+.jsplumb-connector { z-index:4; }
+.jsplumb-endpoint { z-index:5; }
+.jsplumb-overlay { z-index:6; }
+#plumb{
+  user-select: none;
+}
+#plumb svg path {
+  stroke:black;
+  stroke-width:2px;
+}
+.wc-chatview-panel {
+  top: auto;
+  z-index: 9000;
+  left: auto;
+  right: 10px;
+  bottom: 0;
+  height: 500px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+.wc-header {
+  background-color: rgb(0, 188, 212);
+}
+.wc-header label {
+  cursor: pointer;
+  float: right;
+}
+.wc-header .wc-menu {
+  border-radius: 2px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  word-break: break-word;
+  float: right;
+  clear: both;
+  width: 80%;
+  color: #8a8a8a;
+  background-color: #f9f9f9;
+}
+.wc-header .wc-menu span {
+  cursor: pointer;
+  display: block;
+  margin: 5px;
+}
+.wc-header .wc-menu span:hover {
+  color: #dbdee1;
+}
+.wc-message-groups {
+  border: 5px solid #dbdee1;
+  border-bottom: 0;
+}
+.wc-visible {
+  visibility: visible;
+}
+.wc-hidden {
+  visibility: hidden;
+}
+.ambit-dropdown-menu-item {
+  background: #fff;
+}
+.ambit-dropdown-menu-item:hover {
+  background: #D1D1D1;
+}
+.top-nav-icon-action {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.top-nav-icon-action:hover {
+  background: #343434;
+}
+.moveNodesMenu {
+  overflow-y: auto;
+}
+.moveNodesMenuItem {
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+.moveNodesMenuItem:hover {
+  background: #D1D1D1;
+}
+
+.ambit-btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: inline-block;
+  user-select: none;
+  transition: all 0.15s ease-in-out;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 7px 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.ambit-btn.disabled {
+  cursor: default;
+}
+
+.ambit-btn.primary {
+  background: #48A9F5;
+}
+
+.ambit-btn.primary:hover {
+  background: #3E93D4;
+}
+
+.ambit-btn.primary.disabled {
+  background: #949393;
+}
+
+.ambit-btn.small {
+  font-size: 13px;
+  padding: 4px 17px;
+}
+
+.ambit-btn.secondary {
+  background: #fff;
+  border: 1px solid #72B6F6;
+  color: #72B6F6;
+  font-weight: 400;
+}
+
+.ambit-btn.secondary:hover {
+  background: #E4F3FD;
+}
+
+.ambit-btn.secondary.disabled {
+  border: 1px solid #9E9E9E;
+  color: #9E9E9E;
+}
+
+.ambit-btn.text {
+  background: transparent;
+  color: #72B6F6;
+  fill: #72B6F6;
+  padding: 4px 8px;
+  font-weight: 400;
+}
+
+.ambit-btn.text.disabled {
+  color: #9E9E9E;
+  fill: #9E9E9E;
+}
+
+.ambit-btn.text.disabled:hover {
+  background: #fff;
+}
+
+.ambit-btn.text:hover {
+  background: #E4F3FD;
+}
+
+.ambit-link {
+  color: #72B6F6;
+}
+
+.ambit-link {
+  color: #72B6F6;
+}
+
+.ambit-link.disabled {
+  color: #9E9E9E;
+}
+
+.ambit-link.disabled:hover {
+  border-bottom: none;
+}
+
+.ambit-link:hover {
+  border-bottom: 2px solid #72B6F6;
+}
+
+#editorTopBar .ambit-btn.small {
+  padding: 4px 7px;
+}
+
+.formGroupHeader {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.ambit-input input.disabled {
+  cursor: not-allowed;
+}
+
+.ambit-input-label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+
+.ambit-input input {
+  width: 100%;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 4px;
+  background-color: #fff;
+  background-image: none;
+  color: #747474;
+  font-size: 16px;
+  border: 1px solid #C5C5C5;
+  transition: border-color ease-in-out .15s;
+  padding: 5px 7px;
+}
+
+.ambit-input input.hasError {
+  border-color: #EC4F3B;
+}
+
+.ambit-input .errorMessage {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.ambit-input .optionalLabel {
+  font-style: italic;
+  color: #747474;
+}
+
+.ambit-input .validationHint {
+  font-style: italic;
+  font-size: 14px;
+  display: block;
+  margin-top: -5px;
+  margin-bottom: 3px;
+}
+
+.ambit-select .item:hover {
+  background: #D1D1D1;
+}
+
+.Select-menu-outer {
+  z-index: 9999;
+}
+
+.Select-menu {
+  z-index: 9999;
+}
+
+.ambit-checkbox-wrapper {
+  cursor: pointer;
+  position: relative;
+}
+
+.ambit-checkbox {
+  position: absolute;
+  cursor: inherit;
+  pointer-events: all;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  left: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.ambit-checkbox-content-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ambit-textarea {
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #C5C5C5;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+
+.nodeFormContainerWrapper .inputRow {
+  margin-bottom: 15px;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
